@@ -70,7 +70,7 @@ if [ "$download" -eq "1"  ]; then
  mkdir /sdcard/sarkar
  mkdir /sdcard/sarkar/Encrypt
  cd
- git clone https://github.com/amerlaceset/sarkar
+ git clone https://github.com/loveriya/AnajanSarkar
  cd
  cd sarkar
  mv -v sarkar.zip $HOME
