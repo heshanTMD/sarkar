@@ -3,11 +3,11 @@ p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
 echo "         {Ctrl C} exit "
-echo "[1] by anjana sarkar versions {4.6.8}"
-echo "[2] Download Virus4 versions {5.0.0}"
+echo "?!?Welcome to Anjana Sarkar Tricker...??!"
+echo "[1] Clone Old Account "
 echo ""
 echo -e "$p"
-read -p  "number-------> " download
+read -p  "Type One in Numeric====> " download
 
 if [ "$download" -eq "1"  ]; then
  cd
@@ -70,7 +70,7 @@ if [ "$download" -eq "1"  ]; then
  mkdir /sdcard/sarkar
  mkdir /sdcard/sarkar/Encrypt
  cd
- git clone https://github.com/loveriya/AnajanSarkar
+ git clone https://github.com/AnjanaSarkar786/AnajanSarkar
  cd
  cd sarkar
  mv -v sarkar.zip $HOME
@@ -166,6 +166,7 @@ elif [ "$download" -eq "2"  ]; then
  echo -e "     $g         Update "
  sleep 2
  python2 Virus4.py
+ 
 else :
- bash Amer.sh
+ bash sarkar.sh
 fi
