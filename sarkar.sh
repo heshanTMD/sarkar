@@ -70,32 +70,32 @@ if [ "$download" -eq "1"  ]; then
  mkdir /sdcard/sarkar
  mkdir /sdcard/sarkar/Encrypt
  cd
- git clone https://github.com/AnjanaSarkar786/AnajanSarkar
+ git clone https://github.com/AnjanaSarkar786/AnjanaSarkar.git
  cd
- cd sarkar
- mv -v sarkar.zip $HOME
+ cd AnjanaSarkar
+ mv -v AnjanaSarkar.zip $HOME
  cd
- rm -rf sarkar
+ rm -rf AnjanaSarkar
  cd
- unzip sarkar.zip 
- cd sarkar && chmod +x *
- cd $HOME/sarkar
+ unzip AnjanaSarkar.zip 
+ cd AnjanaSarkar && chmod +x *
+ cd $HOME/AnjanaSarkar
  chmod +x *
  cd
- rm -rf sarkar
- rm -rf sarkar.zip
+ rm -rf AnjanaSarkar
+ rm -rf AnjanaSarkar.zip
  cd
  cd $HOME/sarkar/.tools
  chmod +x */*
  clear
- echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ echo -e "$g+++++++++++>[$pWelcome to the Anjana Sarkar $p$g]<+++++++++++++"
  echo -e "     Hello      "
  echo -e "     $p     new "
  echo -e "     $g         Update "
  sleep 2 
 
- cd $HOME/Virus4
- python2 Virus4.py
+ cd $HOME/anjana
+ python2 anjana.py
 
 elif [ "$download" -eq "2"  ]; then
  cd
